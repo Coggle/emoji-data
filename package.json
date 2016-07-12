@@ -11,6 +11,7 @@
     "emoji"
   ],
   "author": "Cal Henderson <cal@iamcal.com>",
+  "maintainer": "James Crosby <james@coggle.it>",
   "license": "MIT",
   "files": [
     "LICENSE",

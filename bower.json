@@ -3,7 +3,8 @@
   "description": "Minimal fork of emoji-data",
   "main": "emoji.json",
   "authors": [
-    "Cal Henderson <cal@iamcal.com>"
+    "Cal Henderson <cal@iamcal.com>",
+    "James Crosby <james@coggle.it>"
   ],
   "license": "MIT",
   "keywords": [
