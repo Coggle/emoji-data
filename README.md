@@ -1,26 +1,6 @@
-This project provides easy-to-parse data about emoji, along with a spritesheet-style 
-images for use on the web.
-
-You can see a catalog of the emoji data here: http://unicodey.com/emoji-data/table.htm
-
-Images are extracted from their sources and this library attempts to track the latest
-available versions. If you're looking for older versions of Apple of Android images
-(such as the Hairy Heart) then you'll need to look at previous revisions.
-
-* Apple Emoji: Copyright &copy; Apple Inc. - OS X 10.11.1
-* Android Emoji: Copyright &copy; [The Android Open Source Project](https://s3-eu-west-1.amazonaws.com/tw-font/android/NOTICE) - Lollipop
-* Twitter Emoji Copyright &copy; Twitter, Inc. - The original release
-* Emoji One Emoji: Copyright &copy; [Ranks.com Inc.](http://www.emojione.com/developers) - master as of 2015-03-05
-
-## Libraries which use this data
-
-* https://github.com/iamcal/js-emoji - JavaScript emoji library
-* https://github.com/iamcal/php-emoji - PHP emoji library
-* https://github.com/mroth/emoji-data-js - NodeJS emoji library
-* https://github.com/mroth/emoji_data.rb - Ruby emoji library
-* https://github.com/mroth/exmoji - Elixir/Erlang emoji library
-* https://github.com/needim/wdt-emoji-bundle - a Slack-style JavaScript emoji picker
-* https://github.com/mroth/emojistatic - emoji image CDN
+This is a fork of iamcal/emoji-data intended to host an up-to-date version of
+the emoji-data JSON files, for consumption by other modules which don't need
+the hundreds of MB of images included in the upstream module.
 
 ## Using the data
 
@@ -90,7 +70,3 @@ An explanation of the various fields is in order:
 * `has_img_*` - A flag for whether the given image set has an image (named by the `image` prop) available.
 * `skin_variations` - For skin-varying emoji, a list of alternative glyphs.
 
-
-## Version history
-
-See [CHANGES.md](CHANGES.md)
