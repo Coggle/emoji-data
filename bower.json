@@ -1,6 +1,6 @@
 {
-  "name": "emoji-data",
-  "description": "Emoji data and images",
+  "name": "emoji-data-minimal",
+  "description": "Minimal fork of emoji-data",
   "main": "emoji.json",
   "authors": [
     "Cal Henderson <cal@iamcal.com>"
@@ -9,7 +9,7 @@
   "keywords": [
     "emoji"
   ],
-  "homepage": "https://github.com/iamcal/emoji-data",
+  "homepage": "https://github.com/Coggle/emoji-data",
   "ignore": [
     "**/.*",
     "node_modules",
