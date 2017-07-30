@@ -16,8 +16,7 @@
   "files": [
     "LICENSE",
     "README.md",
-    "emoji.json",
-    "emoji_pretty.json"
+    "emoji.json"
   ],
   "bugs": {
     "url": "https://github.com/Coggle/emoji-data/issues"
